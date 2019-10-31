@@ -1,14 +1,16 @@
-package com.example.myapplication;
+package com.example.myapplication.Auth;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class Nagarjuna extends AppCompatActivity {
+import com.example.myapplication.R;
+
+public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_nagarjuna);
+        setContentView(R.layout.activity_main);
     }
 }
